@@ -1,0 +1,27 @@
+{
+  "name": "db-challenge",
+  "version": "1.0.0",
+  "description": "Project for Lambda",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gant123/node-db-challenge.git"
+  },
+  "author": "Robert Gant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gant123/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/gant123/node-db-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.2",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
